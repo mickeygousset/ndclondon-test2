@@ -34,5 +34,5 @@ jobs:
         GITHUB_CONTEXT: ${{ toJson(github) }}
       run: echo "$GITHUB_CONTEXT"
     
-#    - name: Create Build Number
-#      run: echo "Build Number -  ${{ github.run_id }}.${{ github.run_number }}"
+    - name: Create Build Number
+      run: echo "Build Number -  ${{ github.run_id }}.${{ github.run_number }}"
